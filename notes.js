@@ -3,10 +3,10 @@ const chalk=require("chalk");
 
 const addNote=(title,body)=>{
 const notes=loadnotes();
-const isValid=notes.find((note)=>{
+const isTitle=notes.find((note)=>{
      return note.title===title;
 })
-if (!isValid) {
+if (!isTitle) {
     notes.push({
         title: title,
         body: body
