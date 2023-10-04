@@ -35,7 +35,7 @@ const listNotes=()=>{
     console.log(chalk.blue("your notes"))
     const notes=loadnotes();
     notes.forEach((note)=>{
-        console.log(note.title);
+        console.lo(gnote.title);
     })
 }
 const readNote=(title)=>{
